@@ -43,3 +43,22 @@
     background-color:#588964;
     color: white;
   }
+  .todo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .todo-container .todo-list {
+    list-style: none;
+    min-width: 30%;
+
+  }
+  .todo-container .todo-list .todo{
+    display: flex;
+    margin: 0.5rem;
+    color: black;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+  }

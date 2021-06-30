@@ -21,10 +21,14 @@
     justify-content: center;
     align-items: center;
   }
+  form .todo-input{
+    padding: .5rem;
+    font-size: 1.5rem;
+  }
 
   form input , form button{
     padding: .5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: white;
     border: none;
   }
@@ -38,6 +42,7 @@
     color: #588964;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+    margin-left: 10px;
   }
   form button:hover{
     background-color:#588964;
@@ -61,9 +66,11 @@
     align-items: center;
     justify-content: space-around;
     font-size: 1.3rem;
+    transition: all 1s ease-in-out;
   }
-  .todo li {
+  .todo .todo-item {
     flex: 1;
+    padding:0rem .5rem;
   }
   .complete-btn,.delete-btn{
     color: white;
@@ -75,4 +82,17 @@
   }
   .delete-btn{
     background:#ff6f47 ;
+  }
+
+  .fa-trash , .fa-check{
+    pointer-events: none;
+  }
+
+  .Completed{
+    opacity: 0.6;
+    text-decoration: line-through;
+  }
+  .fall{
+    transform: translateY(8rem)  rotateZ(20deg);
+    opacity: 0;
   }

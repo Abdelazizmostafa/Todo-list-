@@ -62,3 +62,17 @@
     justify-content: space-around;
     font-size: 1.3rem;
   }
+  .todo li {
+    flex: 1;
+  }
+  .complete-btn,.delete-btn{
+    color: white;
+    border: none;
+    background: #588964;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .delete-btn{
+    background:#ff6f47 ;
+  }
